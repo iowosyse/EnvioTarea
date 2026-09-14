@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; ============================================================
+; PLANTILLA
+; ============================================================
+;
+; Antes de importar este archivo:
+;
+; 1. Reemplaza TODAS las apariciones de RUTA_DOBLE_BARRA
+;    por la ruta donde guardaste/clonaste el proyecto.
+;
+; 2. En los archivos .reg las barras invertidas deben escribirse
+;    duplicadas.
+;
+; Ejemplo:
+;
+; Ruta normal:
+; C:\Users\usuario\code\EnvioTarea
+;
+; Ruta dentro de este archivo:
+; C:\\Users\\usuario\\code\\EnvioTarea
+;
+; ============================================================
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\EnviarTarea]
+@="Enviar como tarea"
+"Icon"="RUTA_DOBLE_BARRA\\.venv\\Scripts\\python.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\EnviarTarea\command]
+@="\"RUTA_DOBLE_BARRA\\.venv\\Scripts\\python.exe\" \"RUTA_DOBLE_BARRA\\script.py\" \"%1\""

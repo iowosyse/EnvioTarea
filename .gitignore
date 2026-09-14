@@ -1,0 +1,8 @@
+.vscode
+.zed
+.venv
+__pycache__
+
+token_cache.bin
+
+script.py
