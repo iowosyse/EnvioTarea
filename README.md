@@ -75,7 +75,7 @@ requests
 Ejemplo:
 
 ```powershell
-git https://github.com/iowosyse/EnvioTarea
+git clone https://github.com/iowosyse/EnvioTarea
 cd EnvioTarea
 ```
 
