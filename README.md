@@ -1,6 +1,6 @@
 # Envío automático de tareas por correo
 
-Este proyecto permite enviar archivos por correo mediante **Microsoft Graph** desde una cuenta de Microsoft 365, sin depender de mantener abierta una sesión en Outlook Web.
+Este script permite enviar archivos por correo mediante **Microsoft Graph** desde una cuenta de Microsoft 365, sin depender de mantener abierta una sesión en Outlook Web.
 
 Está pensado para tareas repetitivas en las que normalmente cambian solo algunos datos, por ejemplo:
 
@@ -12,7 +12,10 @@ Está pensado para tareas repetitivas en las que normalmente cambian solo alguno
 - materia;
 - asunto.
 
-El proyecto puede clonarse y configurarse para distintos usuarios. No depende de una ruta específica ni de los datos de una persona concreta.
+El script puede clonarse y configurarse para distintos usuarios. No depende de una ruta específica ni de los datos de una persona concreta.
+
+> [!IMPORTANT]
+> Se debe cambiar el nombre de `example.py` a `script.py`
 
 ---
 
@@ -72,8 +75,8 @@ requests
 Ejemplo:
 
 ```powershell
-git clone URL_DEL_REPOSITORIO
-cd NOMBRE_DEL_REPOSITORIO
+git https://github.com/iowosyse/EnvioTarea
+cd EnvioTarea
 ```
 
 La ubicación del proyecto puede ser cualquiera.
